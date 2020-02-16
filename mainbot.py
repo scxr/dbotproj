@@ -79,4 +79,4 @@ async def on_message(message):
         except IndexError:
             await message.channel.send('We can not find your account in our databases please purchase a code to use ')
 
-client.run('NjczNTc0NzU2NDczMjQxNjIx.XjcBcg.YH-ZoqC_78yWg9sFuMGX42GsSJA')
+client.run('')

@@ -11,6 +11,6 @@ def fromapi(inp):
         ('page','1'),
     )
     print(topass)
-    response = requests.get('https://api.dehashed.com/search', headers=headers, params=params, auth=('y0ronhere@gmail.com', '42345c3e9ba92e9d82987619e65951c9'))
+    response = requests.get('https://api.dehashed.com/search', headers=headers, params=params, auth=('<redacted>', '<redacted>'))
     
     return response.content
